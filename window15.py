@@ -11,7 +11,7 @@ window = 800
 window_ = 600
 window1 = pygame.display.set_mode((window,window_))
 # הרקע לחלון
-image = pygame.image.load('C:\\Users\\יהונתן\\Desktop\\project with tal\\imagdsdsfsdfsddfsfsdawdfsasdfsfses.png').convert()
+image = pygame.image.load('C:\\Users\\יהונתן\\Desktop\\project with tal\\Tdrlfg.jpg').convert()
 image = pygame.transform.scale(image,(window,window_))
 window1.blit(image, (0, 0))
 pygame.display.flip()
